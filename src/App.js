@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 
-
+// div - division/section of html which is manipulated with js or css
+// p - paragraf
 class App extends React.Component {
   render() {
     return (

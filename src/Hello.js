@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
+import './Hello.css';
 
+
+
+// div - division/section of html which is manipulated with js or css
+// p - paragraf
 class Hello extends Component {
     render() {
-        return <h1>Hello World</h1>
+        return (
+        <div className='f1 tc'>    
+            <h1>Hello World</h1>
+            <p>{this.props.greeting}</p>
+        </div>
+        );
     }
 };
 
