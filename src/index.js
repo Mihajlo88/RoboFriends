@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Hello from './Hello.js';
 import reportWebVitals from './reportWebVitals';
 // the app gets rendered here -- APP.JS is rendered
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <h1>Hello World</h1> */}
+    <Hello />
   </React.StrictMode>
 );
 
