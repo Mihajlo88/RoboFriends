@@ -4,12 +4,12 @@ const SearchBox = () => {
     return(
         <div className='pa2'>
             <input
-             clasName='pa3 ba b--green bg-lightest-blue'
-             type='search' 
-             placeholder='search robots'
+                className='pa3 ba b--green bg-lightest-blue'
+                type='search' 
+                placeholder='search robots'
             />
         </div>    
     );
-};
+}
 
 export default SearchBox;
