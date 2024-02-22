@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
 import { robots } from './robots';
-
+import './App.css';
 // props(properties) are things that come out of state
 // state describes the app - it's an object that describes our app
 
@@ -30,7 +30,7 @@ class App extends Component {
         })
         return (
             <div className='tc'>
-                <h1>RoboFriends</h1>
+                <h1 className='f1'>RoboFriends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CardList robots={filteredRobots} />
             </div>
